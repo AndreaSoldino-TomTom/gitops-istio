@@ -6,6 +6,8 @@ metadata:
 spec:
   profile: default
   components:
+    telemetry:
+      enabled: true
     pilot:
       k8s:
         resources:
